@@ -78,6 +78,7 @@ pipeline {
                     echo $dockerhubpwd | docker login -u nadeps17 --password-stdin
                     docker push nadeps17/ekart:latest
                 '''
+                   }
                 }
             }
         }
